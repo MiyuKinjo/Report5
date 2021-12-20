@@ -8,7 +8,8 @@ public class Report5{
         System.out.println(str.length());
 
         }catch(NullPointerException e){
-            System.out.println("エラー発生！変数がnullだよ！" + e.getMessage());
+            System.out.println("エラー発生！変数がnullだよ！");
+            System.out.println(e.getMessage());
         }
 
     }
